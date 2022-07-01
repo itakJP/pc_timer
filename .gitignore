@@ -1,1 +1,3 @@
-__pycache__/pc_timer.cpython-39.pyc
+pc_timer.spec
+__pycache__/
+build/
