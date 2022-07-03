@@ -39,9 +39,9 @@ def main(args):
         ctypes.windll.PowrProf.SetSuspendState(0, 1, 0)
 
     else:
-        exit(1)
+        sys.exit(1)
 
-    exit(0)
+    sys.exit(0)
 
 if __name__ == '__main__':
     sys.exit(main(sys.argv))
